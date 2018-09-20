@@ -1,0 +1,7 @@
+print random.randint(1,6)
+dicerolls = [] 
+for i in range(10):
+    dicerolls.append(random.randint(1,6))
+
+plt.plot(dicerolls,'bo')
+
